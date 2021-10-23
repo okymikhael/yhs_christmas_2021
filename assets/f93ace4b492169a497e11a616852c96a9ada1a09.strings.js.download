@@ -1,0 +1,6 @@
+(function() {
+ const messages = JSON.parse("{\"qfghlA\":\"Google\",\"ETcy/w\":\"Video tidak ditemukan\",\"yLWiZA\":\"Ctrl\",\"60VG2w\":\"Tutup\",\"GC3KwA\":\"Facebook\",\"XoXDGA\":\"Coba lagi.\",\"1jmEqg\":\"WeChat Pay\",\"Yi93JQ\":\"Beralih ke bisu\",\"+olYfw\":\"Sumber\",\"IbileA\":\"Tampilkan bleed cetakan\",\"E1H7vQ\":\"Beralih ke layar penuh (f)\",\"KObNzg\":\"Beralih ke layar penuh\",\"VSJwUw\":\"(terbuka di tab atau jendela baru)\",\"QCLTSw\":\"Server kami mengalami masalah.\",\"j6lVrg\":\"Desain Tanpa Judul\",\"xXWXkw\":\"Gambar tidak dapat ditampilkan\",\"/OrXPQ\":\"Menu\",\"su+r1w\":\"Bar pencarian\",\"2I+oCQ\":\"Memuat\",\"zSuUjw\":\"Beralih ke bisu (m)\",\"GnEy7g\":\"Halaman {0}\",\"cSn0vw\":\"Mulai\",\"5vUp+w\":\"Jeda\",\"ph76TQ\":\"Gambar tidak ditemukan\",\"uid63A\":\"Tampilkan pembatas\",\"3wCX+Q\":\"Alipay\",\"LW7DHQ\":\"Abaikan\"}");
+ const cmsg = window["cmsg"] = window["cmsg"] || {};
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["id-ID"] = strings["id-ID"] ? Object.assign(strings["id-ID"], messages) : messages;
+})();
